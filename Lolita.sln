@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26711.1
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1EE8D49-85D2-4547-A663-232F8A70C270}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pomelo.EntityFrameworkCore.Lolita.MySql.Tests", "test\Pomelo.EntityFrameworkCore.Lolita.MySql.Tests\Pomelo.EntityFrameworkCore.Lolita.MySql.Tests.csproj", "{314BFA07-DE0C-47E7-8F4B-89794BF1E53D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pomelo.EntityFrameworkCore.Lolita.SqlServer.Tests", "test\Pomelo.EntityFrameworkCore.Lolita.SqlServer.Tests\Pomelo.EntityFrameworkCore.Lolita.SqlServer.Tests.csproj", "{E8EABF0B-838F-405C-88A0-21B1737F42F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pomelo.EntityFrameworkCore2_1.Lolita.SqlServer.Tests", "test\Pomelo.EntityFrameworkCore_2_1.Lolita.SqlServer.Tests\Pomelo.EntityFrameworkCore2_1.Lolita.SqlServer.Tests.csproj", "{C8B7E8EC-CCA3-4B90-9146-5AD7A89128D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{E8EABF0B-838F-405C-88A0-21B1737F42F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8EABF0B-838F-405C-88A0-21B1737F42F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8EABF0B-838F-405C-88A0-21B1737F42F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B7E8EC-CCA3-4B90-9146-5AD7A89128D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B7E8EC-CCA3-4B90-9146-5AD7A89128D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B7E8EC-CCA3-4B90-9146-5AD7A89128D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B7E8EC-CCA3-4B90-9146-5AD7A89128D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{4F1530AC-A2F3-4D68-A41D-7EBA6723DEB4} = {6F76702A-790C-47B5-9C30-3DF72E403539}
 		{314BFA07-DE0C-47E7-8F4B-89794BF1E53D} = {6F76702A-790C-47B5-9C30-3DF72E403539}
 		{E8EABF0B-838F-405C-88A0-21B1737F42F4} = {6F76702A-790C-47B5-9C30-3DF72E403539}
+		{C8B7E8EC-CCA3-4B90-9146-5AD7A89128D4} = {6F76702A-790C-47B5-9C30-3DF72E403539}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE13107D-11F3-40D4-BE6B-76EF71EE36C3}
